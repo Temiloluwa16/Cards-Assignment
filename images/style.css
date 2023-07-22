@@ -11,4 +11,36 @@
 .row::after{
     content: "";
     clear: both;
+    display: table;
+    align-items: center;
+}
+.display2{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.375rem;
+  line-height: 1.1;
+  font-weight: bold;
+  
+  display: -webkit-flex;
+ margin-bottom: 24px;
+}
+body {
+    line-height: 1.667em;
+    line-height: 30px;
+}
+.container {
+    max-width: 1220px;
+    margin: auto;
+    position: relative;
+    word-wrap: break-word;
+    }
+.features {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ffffff;
+}
+ 
+section {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
